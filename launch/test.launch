@@ -1,0 +1,19 @@
+<launch>
+
+    <param name="/use_sim_time" value="true"/>
+
+    <node pkg="stack_og" type="countModel.py" name="stack_og" respawn="false" output="screen" clear_params="true">
+        <rosparam param="topic_list">["/map/image_segmentation"]</rosparam>
+        
+        <param name="update_frequency" value="10"/>
+
+        <param name="fixed_frame" value="map"/>
+        <param name="baselink_frame" value="base_link"/>
+        <param name="resolution" value="0.1"/>
+        <param name="height" value="100"/>
+        <param name="width" value="100"/>
+
+        <param name="threshold_value" value="40"/>
+        <param name="discard_time"    value="120"/>
+    </node>
+</launch>

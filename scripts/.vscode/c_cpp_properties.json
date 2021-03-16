@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/quan/bugcar_simulation_ws/devel/include/**",
+        "/home/quan/bugcar/devel/include/**",
+        "/home/quan/ros_test_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/quan/ros_test_ws/src/navigation/amcl/include/**",
+        "/home/quan/ros_test_ws/src/navigation/base_local_planner/include/**",
+        "/home/quan/bugcar/src/bno055_usb/bno055_usb_stick/include/**",
+        "/home/quan/ros_test_ws/src/bugcar_twist_mux/include/**",
+        "/home/quan/ros_test_ws/src/navigation/carrot_planner/include/**",
+        "/home/quan/ros_test_ws/src/navigation/clear_costmap_recovery/include/**",
+        "/home/quan/ros_test_ws/src/navigation/costmap_2d/include/**",
+        "/home/quan/ros_test_ws/src/navigation/dwa_local_planner/include/**",
+        "/home/quan/ros_test_ws/src/navigation/global_planner/include/**",
+        "/home/quan/bugcar_simulation_ws/src/hector_gazebo/hector_gazebo_plugins/include/**",
+        "/home/quan/bugcar_simulation_ws/src/hector_gazebo/hector_gazebo_thermal_camera/include/**",
+        "/home/quan/bugcar_simulation_ws/src/imu_compass/include/**",
+        "/home/quan/ros_test_ws/src/navigation/map_server/include/**",
+        "/home/quan/ros_test_ws/src/map_to_lidar/include/**",
+        "/home/quan/bugcar/src/mapviz/mapviz/include/**",
+        "/home/quan/bugcar/src/mapviz/mapviz_plugins/include/**",
+        "/home/quan/ros_test_ws/src/navigation/move_base/include/**",
+        "/home/quan/ros_test_ws/src/navigation/move_slow_and_clear/include/**",
+        "/home/quan/bugcar/src/mapviz/multires_image/include/**",
+        "/home/quan/ros_test_ws/src/navigation/nav_core/include/**",
+        "/home/quan/ros_test_ws/src/navigation/navfn/include/**",
+        "/home/quan/ros_test_ws/src/osm_planner/include/**",
+        "/home/quan/bugcar/src/rosserial/rosserial_server/include/**",
+        "/home/quan/bugcar/src/rosserial/rosserial_test/include/**",
+        "/home/quan/ros_test_ws/src/navigation/rotate_recovery/include/**",
+        "/home/quan/bugcar_simulation_ws/src/rqt_multiplot_plugin/include/**",
+        "/home/quan/ros_test_ws/src/stack_grid_bugcar/include/**",
+        "/home/quan/ros_test_ws/src/teb_local_planner/include/**",
+        "/home/quan/bugcar/src/mapviz/tile_map/include/**",
+        "/home/quan/bugcar/src/twist_mux/include/**",
+        "/home/quan/bugcar/src/ublox/ublox_gps/include/**",
+        "/home/quan/bugcar/src/ublox/ublox_msgs/include/**",
+        "/home/quan/bugcar/src/ublox/ublox_serialization/include/**",
+        "/home/quan/ros_test_ws/src/navigation/voxel_grid/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}
