@@ -3,7 +3,7 @@
     <param name="/use_sim_time" value="true"/>
 
     <node pkg="stack_og" type="countModel.py" name="stack_og" respawn="false" output="screen" clear_params="true">
-        <rosparam param="topic_list">["/map/image_segmentation"]</rosparam>
+        <rosparam param="topic_list">["/map/abc"]</rosparam>
         
         <param name="update_frequency" value="10"/>
 
